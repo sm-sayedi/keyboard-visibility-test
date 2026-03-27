@@ -1,17 +1,17 @@
 # keyboard_visibility_test
 
-A new Flutter project.
+A flutter project for testing [keyboard-visibility](https://github.com/sm-sayedi/flutter/tree/keyboard-visibility) branch.
 
-## Getting Started
+## Setup
+ - Pull the [branch](https://github.com/sm-sayedi/flutter/tree/keyboard-visibility) locally.
+ - Generate a local engine build by following the Flutter [engine_tool](https://github.com/flutter/flutter/tree/main/engine/src/flutter/tools/engine_tool) guide.
+ - Edit `pubspec.yaml` to point to a locally built engine under `dependency_overrides`.
+ - Run the app using a locally built engine, e.g, using the following command:
+   ```
+   flutter run -d "emulator-5554" --local-engine=android_debug_arm64 --local-engine-host=host_debug_unopt_arm64
+   ```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screen recordings
+| Before | After |
+| --- | --- |
+| <video src="https://github.com/user-attachments/assets/d475d69e-382c-42ff-a986-a9c911898008" controls /> | <video src="https://github.com/user-attachments/assets/a1c247e2-eebd-414c-a6e8-c4ec3313d16e" controls /> |
